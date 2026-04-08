@@ -41,8 +41,6 @@ pip install -r requirements.txt
 
 ### 2. Quick train/test
 
-The uploaded subset data can be directly used for quick training and testing.
-
 Run the training script on the provided subset:
 
 ```bash
