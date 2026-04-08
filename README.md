@@ -1,6 +1,9 @@
 # DUTransUNet
 Dual-Decoder Transformer U-Net for Differential Interferogram Deformation Regions Segmentation
 
+## Overview
+This repository provides the implementation of DUTransUNet, a dual-decoder Transformer U-Net for deformation region segmentation in DInSAR differential interferograms. The repository includes the main training and testing scripts, sample data for quick verification, and split files for reproduction.
+
 ## Dataset
 The experiments in the manuscript were conducted on the Hephaestus dataset.
 ## Dataset description
@@ -51,3 +54,8 @@ Run the testing script on the provided subset:
 ```bash
 python test.py
 ```
+
+The provided subset data can be used directly for a quick run of the training and testing pipeline.
+
+## License
+This project is released under the MIT License.
