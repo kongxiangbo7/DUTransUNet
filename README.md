@@ -9,6 +9,7 @@ Hephaestus is a large-scale DInSAR dataset containing Sentinel-1 differential in
 ## Dataset access
 To facilitate rapid verification of the code, a subset of the Hephaestus dataset has been included in this repository for quick training and testing. The corresponding split files `train.txt` and `test.txt` are also provided.
 A suggested directory layout is:
+
 ```text
 data/
 └── Hephaestus/
@@ -20,6 +21,7 @@ lists/
     ├── train.txt
     └── test.txt
 ```
+
 The `data/` and `lists/` folders should be placed at the same directory level.
 This subset is intended only for quick experiments and code verification. For larger-scale training and a more complete evaluation, users may obtain the full Hephaestus dataset from its official source and organize it following the same directory structure.
 Please modify the dataset paths in the code if your local file structure is different.
