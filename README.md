@@ -52,7 +52,7 @@ Run the testing script on the provided subset:
 ```bash
 python test.py
 ```
-
+The test script will generate segmentation predictions and evaluation results on the provided subset.
 The provided subset data can be used directly for a quick run of the training and testing pipeline.
 
 ## License
