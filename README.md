@@ -1,21 +1,27 @@
 # DUTransUNet
 Dual-Decoder Transformer U-Net for Differential Interferogram Deformation Regions Segmentation
 
-# Dataset
+## Dataset
 The experiments in the manuscript were conducted on the Hephaestus dataset.
-# Dataset description
+## Dataset description
 Hephaestus is a large-scale DInSAR dataset containing Sentinel-1 differential interferograms from 44 active volcanic regions worldwide. The dataset contains interferograms acquired between 2014 and 2021 and cropped into 224 × 224 patches.
-# Dataset access
-Please obtain the Hephaestus dataset from its official source and organize it under the data/Hephaestus/ directory before training or testing.
+## Dataset access
+
+Please obtain the Hephaestus dataset from its official source and organize it before training or testing.
+
 A suggested directory layout is:
+
+```text
 data/
 └── Hephaestus/
     ├── images/
-    ├── masks/
+    └── masks/
+
 lists/
-└──lists_hephaestus/
+└── lists_hephaestus/
     ├── train.txt
-    ├── test.txt
+    └── test.txt
+```
 
 
 
