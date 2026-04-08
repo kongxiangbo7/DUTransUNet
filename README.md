@@ -29,5 +29,5 @@ Please modify the dataset paths in the code if your local file structure is diff
 Please prepare an environment with python=3.7, and then use the command "pip install -r requirements.txt" for the dependencies.
 
 ### 2.Train/Test
-(1) Run the train script on Hephaestus dataset.
-(2) Run the test script on Hephaestus dataset.
+· Run the train script on Hephaestus dataset.
+· Run the test script on Hephaestus dataset.
